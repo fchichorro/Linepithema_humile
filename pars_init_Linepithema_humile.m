@@ -1,4 +1,4 @@
-function [par, metaPar, txtPar] = pars_init_Venturia_canescens(metaData)
+function [par, metaPar, txtPar] = pars_init_Linepithema_humile(metaData)
 
 metaPar.model = 'hex'; 
 
@@ -26,10 +26,9 @@ par.h_a = 1.179e-04;  free.h_a   = 1;   units.h_a = '1/d^2';      label.h_a = 'W
 par.s_G = 0.0001;     free.s_G   = 0;   units.s_G = '-';          label.s_G = 'Gompertz stress coefficient'; 
 
 %% other parameters 
-par.E_Hx = 1.412e-05; free.E_Hx  = 1;   units.E_Hx = 'J';         label.E_Hx = 'maturity at pre-birth (when embryo starts absorbation)'; 
+par.E_Hh = 1.226e-02; free.E_Hh  = 1;   units.E_Hh = 'J';         label.E_Hh = 'maturity at hatch'; 
+par.del_M = 0.16;     free.del_M = 1;   units.del_M = '-';        label.del_M = 'shape coefficient'; 
 par.f = 1;            free.f     = 0;   units.f = '-';            label.f = 'scaled functional response for 0-var data'; 
-par.k_E = 0.22664;    free.k_E   = 1;   units.k_E = '1/d';        label.k_E = 'reproduction buffer turnover of imago'; 
-par.k_EV = 1.8882;    free.k_EV  = 1;   units.k_EV = '1/d';       label.k_EV = 'spec decay rate of larval structure in pupa'; 
 
 %% set chemical parameters from Kooy2010 
 [par, units, label, free] = addchem(par, units, label, free, metaData.phylum, metaData.class); 
