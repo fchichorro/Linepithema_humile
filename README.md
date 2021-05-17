@@ -8,13 +8,13 @@ Estimation of dynamic-energy budget parameters for the argentine ant, *Linepithe
 
 ## TODO
 
-- add egg incubation times, larval and pupal period duration from NewelBarber1913
+- update my_data file with egg incubation times, larval and pupal period duration at different temperatures from NewelBarber1913
+- (time allowing): larval length-weight and time-length relationships from the literature - maybe within Laurent Keller's publications from the 80-90s
 
-## Issues
+## Questions/issues
 
-- NewelBarber1913 has some data on egg/larval/pupal durations for some temperature values, but data on queen larvae is missing. Maybe more recent literature has more info on queen larval development?
+- NewelBarber1913 has some data on egg/larval/pupal durations for some temperature values for males and workers, but data on queen larvae is missing. Maybe more recent literature has more info on queen larval development?
 - I did not find in the AmPep the trait "larval period duration". How to add this potential relevant information to the my_data file?
-
 
 ## Useful bibliography
 
