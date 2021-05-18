@@ -13,6 +13,10 @@ Estimation of dynamic-energy budget parameters for the argentine ant, *Linepithe
 
 ## TODO
 
+- Watch lecture videos 19th May
+- Watch about parameter estimation: 
+  - https://www.youtube.com/watch?v=YyQv_xCbXLM&t=452s&ab_channel=DEBvideos
+  - https://www.youtube.com/watch?v=aMgZFi2A8bQ&t=1s&ab_channel=DEBvideos
 - (time allowing): search for larval length-weight and time-length relationships from the literature - maybe within Laurent Keller's publications from the 80-90s
 
 ## Issues
