@@ -4,17 +4,22 @@ Estimation of dynamic-energy budget parameters for the argentine ant, *Linepithe
 
 ## Background
 
-*Linepithema humile* is in the list of the 100 worst invasive species. It originates from South America and it was brought to virtually every temperate/mediterranean region in the world, where it is invasive. It displaces native species of ants where it occurs due to its aggressivity and high numbers.
+*Linepithema humile* [is one of the 100 worst invasive species worldwide](http://www.iucngisd.org/gisd/100_worst.php). It originates from South America and [it is invasive worldwide](http://www.iucngisd.org/gisd/speciesname/Linepithema+humile), specially in mediterranean climates. It displaces native species of ants where it occurs due to its aggressivity and high numbers.
+
+## DEB implementation
+
+- [hex](http://www.debtheory.org/wiki/index.php?title=Typified_models#hex) type model
+  - four stages: egg, larva, pupa, imago
 
 ## TODO
 
 - update my_data file with egg incubation times, larval and pupal period duration at different temperatures from NewelBarber1913
-- (time allowing): larval length-weight and time-length relationships from the literature - maybe within Laurent Keller's publications from the 80-90s
+- (time allowing):search for larval length-weight and time-length relationships from the literature - maybe within Laurent Keller's publications from the 80-90s
+- 
 
 ## Questions/issues
 
-- NewelBarber1913 has some data on egg/larval/pupal durations for some temperature values for males and workers, but data on queen larvae is missing. Maybe more recent literature has more info on queen larval development?
-- I did not find in the AmPep the trait "larval period duration". How to add this potential relevant information to the my_data file?
+- AmPeps not creating the 4 source files
 
 ## Useful bibliography
 
