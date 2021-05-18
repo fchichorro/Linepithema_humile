@@ -13,11 +13,9 @@ Estimation of dynamic-energy budget parameters for the argentine ant, *Linepithe
 
 ## TODO
 
-- update my_data file with egg incubation times, larval and pupal period duration at different temperatures from NewelBarber1913
-- (time allowing):search for larval length-weight and time-length relationships from the literature - maybe within Laurent Keller's publications from the 80-90s
-- 
+- (time allowing): search for larval length-weight and time-length relationships from the literature - maybe within Laurent Keller's publications from the 80-90s
 
-## Questions/issues
+## Issues
 
 - AmPeps not creating the 4 source files
 
@@ -35,8 +33,3 @@ Estimation of dynamic-energy budget parameters for the argentine ant, *Linepithe
 - Distribution maps:
   - https://antmaps.org/?mode=species&species=Linepithema.humile (curated)
   - https://www.gbif.org/species/1316908
-
-
-
-
-
