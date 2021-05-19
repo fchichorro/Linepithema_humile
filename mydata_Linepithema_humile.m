@@ -49,12 +49,8 @@ data.am = 1461; units.am = 'd'; label.am = 'life span'; bibkey.am = {'guess'};
   comment.am = 'The lifespan of L humile is unknown because 90% of them are executed by their workers every year. However, Ant queens are known to last for several years, hence the 4 year lifespan chosen.';
 
 data.Ww0 = 2e-05; units.Ww0 = 'g'; label.Ww0 = 'initial wet weight'; bibkey.Ww0 = {'AnDi'};
-data.Wwi = 0.00339; units.Wwi = 'g'; label.Wwi = 'ultimate wet weight'; bibkey.Wwi = {'KellPass1988'};
-  comment.Wwi = 'measured from mature queen';
 data.Wwe = 0.00277; units.Wwe = 'g'; label.Wwe = 'wet weight of imago'; bibkey.Wwe = {'KellPass1988'};
   comment.Wwe = 'measured from emerged gyne';
-data.Wdi = 0.00118; units.Wdi = 'g'; label.Wdi = 'ultimate dry weight'; bibkey.Wdi = {'KellPass1988'};
-  comment.Wdi = 'measured from mature queen';
 data.Wde = 0.00068; units.Wde = 'g'; label.Wde = 'dry weight of imago'; bibkey.Wde = {'KellPass1988'};
   comment.Wde = 'measured from emerged gyne';
 
