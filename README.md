@@ -6,7 +6,22 @@ Estimation of dynamic-energy budget parameters for the argentine ant, *Linepithe
 
 *Linepithema humile* [is one of the 100 worst invasive species worldwide](http://www.iucngisd.org/gisd/100_worst.php). It originates from South America and [it is invasive worldwide](http://www.iucngisd.org/gisd/speciesname/Linepithema+humile), specially in mediterranean climates. It displaces native species of ants where it occurs due to its aggressivity and high numbers.
 
-## DEB implementation
+### Useful bibliography
+
+- General info:
+  - EOL https://eol.org/pages/473775
+  - AntWiki https://www.antwiki.org/wiki/Linepithema_humile
+  - Wikipedia https://en.wikipedia.org/wiki/Argentine_ant
+  - Animal Diversity https://animaldiversity.org/accounts/Linepithema_humile/ (measurements, life stage durations, source of refs)
+  - Newel, Barber 1913 The Argentine Ant https://ufdc.ufl.edu//AA00018920/00001 (for measurements, life stage durations, general info)
+  - Invasive species portal http://www.iucngisd.org/gisd/speciesname/Linepithema+humile
+  - Antweb https://www.antweb.org/images.do?genus=linepithema&species=humile&rank=species&project=allantwebants (Taxonomy, photos)
+
+- Distribution maps:
+  - https://antmaps.org/?mode=species&species=Linepithema.humile (curated)
+  - https://www.gbif.org/species/1316908
+
+### DEB implementation
 
 - [hex](http://www.debtheory.org/wiki/index.php?title=Typified_models#hex) type model
   - four stages: egg, larva, pupa, imago
@@ -25,20 +40,6 @@ Estimation of dynamic-energy budget parameters for the argentine ant, *Linepithe
 ## Issues
 - apparent bug while adding bibkeys to a discussion topic (problem detailed here: https://moodlemooc.univ-brest.fr/moodle/mod/forum/discuss.php?d=80#p209)
 
-## Useful bibliography
-
-- General info:
-  - EOL https://eol.org/pages/473775
-  - AntWiki https://www.antwiki.org/wiki/Linepithema_humile
-  - Wikipedia https://en.wikipedia.org/wiki/Argentine_ant
-  - Animal Diversity https://animaldiversity.org/accounts/Linepithema_humile/ (measurements, life stage durations, source of refs)
-  - Newel, Barber 1913 The Argentine Ant https://ufdc.ufl.edu//AA00018920/00001 (for measurements, life stage durations, general info)
-  - Invasive species portal http://www.iucngisd.org/gisd/speciesname/Linepithema+humile
-  - Antweb https://www.antweb.org/images.do?genus=linepithema&species=humile&rank=species&project=allantwebants (Taxonomy, photos)
-
-- Distribution maps:
-  - https://antmaps.org/?mode=species&species=Linepithema.humile (curated)
-  - https://www.gbif.org/species/1316908
 
 ## Useful DEB links (at least to me)
 [DEB2021 course step-by-step](https://bio.vu.nl/thb/deb/deblab/add_my_pet/AmP@DEB2021.html):
