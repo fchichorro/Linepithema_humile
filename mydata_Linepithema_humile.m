@@ -84,7 +84,7 @@ data.WwR = [ ...
 units.WwR = {'g', '#/d'}; label.WwR = {'wet weight', 'reproduction rate'};
 temp.WwR = C2K(28); units.temp.WwR = 'K'; label.temp.WwR = 'temperature';
 bibkey.WwR = {'Kell1988'};
-comment.WwR = 'measured on artificial colonies with one queen (Fig 1). The study also presents results from polygyne colonies, which are what we typically see in nature. I chose monogyne because it better reflects optimal conditions through the queen's perspective.';
+comment.WwR = 'measured on artificial colonies with one queen (Fig 1). The study also presents results from polygyne colonies, which are what we typically see in nature. I chose monogyne because it better reflects optimal conditions through the queens perspective.';
 
 %% set weights for all real data
 weights = setweights(data, []);
