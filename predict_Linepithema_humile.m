@@ -39,7 +39,7 @@ Lw_j = L_j/ del_M;                % cm, physical length at pupation
 
 % emergence
 L_e = L_m * l_e; % cm, structural length at emergence
-t_e = (tau_e - tau_j)/ k_M/ TC_te; % d, time since birth at pupation
+t_e = (tau_e - tau_j)/ k_M/ TC_te; % d, time since pupation at emergence
 Lw_e = L_e/ del_M; % cm, physical length at emergence
 E_Rj = v_Rj * (1 - kap) * g * E_m * L_j^3; % J, reproduction buffer at pupation
 E_e = E_Rj + u_Ee * g * E_m * L_m^3;  % J, reserve at emergence
@@ -79,4 +79,3 @@ WwR = TC_WwR * reprod_rate((WwR(:,1)/(1 + f_WwR * ome)).^(1/3), f_WwR, pars_R); 
 
 % pack to output
 prdData.WwR = WwR;
-
