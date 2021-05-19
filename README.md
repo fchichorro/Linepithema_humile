@@ -49,6 +49,6 @@ Estimation of dynamic-energy budget parameters for the argentine ant, *Linepithe
   - [deb species list](https://www.bio.vu.nl/thb/deb/deblab/add_my_pet/species_list.html), 
 
 2. Four source codes ready?
-  1. [Parameter estimation in practice (video)](https://www.youtube.com/watch?v=YyQv_xCbXLM&t=452s&ab_channel=DEBvideos)
+  1. [Parameter estimation in practice (video)](https://www.youtube.com/watch?v=9h_ZIuW5z04&ab_channel=BasKooijman)
   2. [Point parameter estimation (video)](https://www.youtube.com/watch?v=GGgK94QHwm0&ab_channel=BasKooijman)
   3. Reasonable fit? [Comparison with reference species (video)](https://www.youtube.com/watch?v=mjbttcUUuiU&ab_channel=BasKooijman)
