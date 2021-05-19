@@ -12,19 +12,17 @@ Estimation of dynamic-energy budget parameters for the argentine ant, *Linepithe
   - four stages: egg, larva, pupa, imago
 
 ## TODO
-- remove sizes/weights at ultimate size to avoid conflicts with size at emergence
-- get again ab, tj, te from Abri2010 using PlotReader
-- add T-ab, T-tj, T-te from Abri2010 (outside of AmPgui)
+- read parameter estimation tutorial
 - post forum entry about xi_WE and LaurentKeller1988
-- get oxygen consumption of queens from Boom1995 (need to further read the paper to understand exactly on which life-cycles the oxygen consumption was measured)
-- Watch lecture videos 19th May
-- Watch about parameter estimation: 
+- Parameter estimation videos: 
   - https://www.youtube.com/watch?v=YyQv_xCbXLM&t=452s&ab_channel=DEBvideos
   - https://www.youtube.com/watch?v=aMgZFi2A8bQ&t=1s&ab_channel=DEBvideos
+
+## Optional TODO
+- get oxygen consumption of queens from Boom1995 (need to further read the paper to understand exactly on which life-cycles the oxygen consumption was measured)
 - (time allowing): search for larval length-weight and time-length relationships from the literature - maybe within Laurent Keller's publications from the 80-90s
 
 ## Issues
-
 - apparent bug while adding bibkeys to a discussion topic (problem detailed here: https://moodlemooc.univ-brest.fr/moodle/mod/forum/discuss.php?d=80#p209)
 
 ## Useful bibliography
@@ -41,3 +39,16 @@ Estimation of dynamic-energy budget parameters for the argentine ant, *Linepithe
 - Distribution maps:
   - https://antmaps.org/?mode=species&species=Linepithema.humile (curated)
   - https://www.gbif.org/species/1316908
+
+## Useful DEB links (at least to me)
+[DEB2021 course step-by-step](https://bio.vu.nl/thb/deb/deblab/add_my_pet/AmP@DEB2021.html):
+1. Creating the four source files
+  - [AmPeps tutorial](https://www.bio.vu.nl/thb/deb/deblab/add_my_pet/AmPeps.html)
+  - [codes for zero-variate data](http://www.debtheory.org/wiki/index.php?title=Zero-variate_data), 
+  - [codes for uni-variate data wiki](http://www.debtheory.org/wiki/index.php?title=Univariate_data), 
+  - [deb species list](https://www.bio.vu.nl/thb/deb/deblab/add_my_pet/species_list.html), 
+
+2. Four source codes ready?
+  1. [Parameter estimation in practice (video)](https://www.youtube.com/watch?v=YyQv_xCbXLM&t=452s&ab_channel=DEBvideos)
+  2. [Point parameter estimation (video)](https://www.youtube.com/watch?v=GGgK94QHwm0&ab_channel=BasKooijman)
+  3. Reasonable fit? [Comparison with reference species (video)](https://www.youtube.com/watch?v=mjbttcUUuiU&ab_channel=BasKooijman)
