@@ -12,9 +12,11 @@ Estimation of dynamic-energy budget parameters for the argentine ant, *Linepithe
   - four stages: egg, larva, pupa, imago
 
 ## TODO
-- get oxygen consumption of queens from Boom1995 (need to further read the paper to understand exactly on which life-cycles the oxygen consumption was measured)
+- remove sizes/weights at ultimate size to avoid conflicts with size at emergence
 - get again ab, tj, te from Abri2010 using PlotReader
 - add T-ab, T-tj, T-te from Abri2010 (outside of AmPgui)
+- post forum entry about xi_WE and LaurentKeller1988
+- get oxygen consumption of queens from Boom1995 (need to further read the paper to understand exactly on which life-cycles the oxygen consumption was measured)
 - Watch lecture videos 19th May
 - Watch about parameter estimation: 
   - https://www.youtube.com/watch?v=YyQv_xCbXLM&t=452s&ab_channel=DEBvideos
