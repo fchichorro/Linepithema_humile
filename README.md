@@ -12,7 +12,9 @@ Estimation of dynamic-energy budget parameters for the argentine ant, *Linepithe
   - four stages: egg, larva, pupa, imago
 
 ## TODO
-
+- get oxygen consumption of queens from Boom1995 (need to further read the paper to understand exactly on which life-cycles the oxygen consumption was measured)
+- get again ab, tj, te from Abri2010 using PlotReader
+- add T-ab, T-tj, T-te from Abri2010 (outside of AmPgui)
 - Watch lecture videos 19th May
 - Watch about parameter estimation: 
   - https://www.youtube.com/watch?v=YyQv_xCbXLM&t=452s&ab_channel=DEBvideos
@@ -21,7 +23,7 @@ Estimation of dynamic-energy budget parameters for the argentine ant, *Linepithe
 
 ## Issues
 
-- AmPeps not creating the 4 source files
+- apparent bug while adding bibkeys to a discussion topic (problem detailed here: https://moodlemooc.univ-brest.fr/moodle/mod/forum/discuss.php?d=80#p209)
 
 ## Useful bibliography
 
