@@ -27,19 +27,17 @@ Estimation of dynamic-energy budget parameters for the argentine ant, *Linepithe
   - four stages: egg, larva, pupa, imago
 
 ## TODO
-- read parameter estimation tutorial
-- post forum entry about xi_WE and LaurentKeller1988
-- Parameter estimation videos: 
+- Estimate parameters with current version
+  - read parameter estimation tutorial
   - https://www.youtube.com/watch?v=YyQv_xCbXLM&t=452s&ab_channel=DEBvideos
   - https://www.youtube.com/watch?v=aMgZFi2A8bQ&t=1s&ab_channel=DEBvideos
-
-## Optional TODO
-- get oxygen consumption of queens from Boom1995 (need to further read the paper to understand exactly on which life-cycles the oxygen consumption was measured)
-- (time allowing): search for larval length-weight and time-length relationships from the literature - maybe within Laurent Keller's publications from the 80-90s
-
+- Create new branch to include the following data:
+  1. T-ab, T-tj, T-te
+  2. xi_WE (forum entry, Laurent Keller1988)
+  3. oxygen consumption (Boom1995)
+  
 ## Issues
 - apparent bug while adding bibkeys to a discussion topic (problem detailed here: https://moodlemooc.univ-brest.fr/moodle/mod/forum/discuss.php?d=80#p209)
-
 
 ## Useful DEB links (at least to me)
 [DEB2021 course step-by-step](https://bio.vu.nl/thb/deb/deblab/add_my_pet/AmP@DEB2021.html):
