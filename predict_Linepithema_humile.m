@@ -13,6 +13,8 @@ TC_te = tempcorr(temp.te, T_ref, pars_T);
 TC_am = tempcorr(temp.am, T_ref, pars_T);
 TC_Ri = tempcorr(temp.Ri, T_ref, pars_T);
 TC_WwR = tempcorr(temp.WwR, T_ref, pars_T);
+TC_Tab = tempcorr(C2K(Tab(:,1)), T_ref, pars_T);
+
 
 % life cycle
 pars_tj = [g k v_Hb v_He s_j kap kap_V];
@@ -77,5 +79,9 @@ prdData.Ri = R_i;
 pars_R = [kap; kap_R; g; k_J; k_M; L_T; v; U_Hb; U_He]; % compose parameter vector
 WwR = TC_WwR * reprod_rate((WwR(:,1)/(1 + f_WwR * ome)).^(1/3), f_WwR, pars_R); % #/d, reproduction rate
 
+% temperature - age at birth
+EaT_b = a_b./ TC_Tab;
+
 % pack to output
 prdData.WwR = WwR;
+prdData.Tab = EaT_b;

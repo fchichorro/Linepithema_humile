@@ -86,8 +86,21 @@ temp.WwR = C2K(28); units.temp.WwR = 'K'; label.temp.WwR = 'temperature';
 bibkey.WwR = {'Kell1988'};
 comment.WwR = 'measured on artificial colonies with one queen (Fig 1). The study also presents results from polygyne colonies, which are what we typically see in nature. I chose monogyne because it better reflects optimal conditions through the queens perspective.';
 
+% Temperature - age at birth
+data.Tab = [ ... 
+  18 57.7
+  21 31.8
+  24 20.3
+  26 17.8
+  28 16
+  30 15.7];
+units.Tab = {'T', 'd'}; label.Tab= {'Temperature', 'age at birth'};
+bibkey.Tab = {'Abri2010'};
+comment.Tab = 'Incubation times measured on eggs belonging to the worker caste (best information available)';
+
 %% set weights for all real data
 weights = setweights(data, []);
+weights.Ww0 = 5 * weights.Ww0;
 
 %% set pseudodata and respective weights
 [data, units, label, weights] = addpseudodata(data, units, label, weights);
