@@ -21,23 +21,22 @@ Estimation of dynamic-energy budget parameters for the argentine ant, *Linepithe
   - https://antmaps.org/?mode=species&species=Linepithema.humile (curated)
   - https://www.gbif.org/species/1316908
 
+## TODO
+- include the following data:
+    1. JOe, JOp: oxygen consumption (Boom1995) - from larvae and pupae
+    2. (maybe?) xi_WE (forum entry, Laurent Keller1988)
+
 ### DEB implementation
 
 - [hex](http://www.debtheory.org/wiki/index.php?title=Typified_models#hex) type model
   - four stages: egg, larva, pupa, imago
-
-## TODO
-- Estimate parameters with current version
-  - read parameter estimation tutorial
-  - https://www.youtube.com/watch?v=YyQv_xCbXLM&t=452s&ab_channel=DEBvideos
-  - https://www.youtube.com/watch?v=aMgZFi2A8bQ&t=1s&ab_channel=DEBvideos
-- Create new branch to include the following data:
-  1. T-ab, T-tj, T-te
-  2. xi_WE (forum entry, Laurent Keller1988)
-  3. oxygen consumption (Boom1995)
+  - we assume that life-stage durations measured on workers are the same as those on queens.
+  
+## Observations
+- predicted kappa is 0.43 (very low)
+- v is low? 0.001
   
 ## Issues
-- apparent bug while adding bibkeys to a discussion topic (problem detailed here: https://moodlemooc.univ-brest.fr/moodle/mod/forum/discuss.php?d=80#p209)
 
 ## Useful DEB links (at least to me)
 [DEB2021 course step-by-step](https://bio.vu.nl/thb/deb/deblab/add_my_pet/AmP@DEB2021.html):
