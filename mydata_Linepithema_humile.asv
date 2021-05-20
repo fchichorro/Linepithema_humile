@@ -117,8 +117,9 @@ data.Tte = [ ...
   28 9
   30 8];
 units.Tte = {'T', 'd'}; label.Tte= {'Temperature', 'time since pupation at emergence'};
-bibkey.Tte = {'Abri2010'};
-comment.Tte = 'Incubation times measured on eggs belonging to the worker caste (best information available)';
+bibkey.Tab = {'Abri2010'};
+comment.Tab = 'Incubation times measured on eggs belonging to the worker caste (best information available)';
+
 
 %% set weights for all real data
 weights = setweights(data, []);

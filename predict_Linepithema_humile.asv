@@ -81,11 +81,7 @@ WwR = TC_WwR * reprod_rate((WwR(:,1)/(1 + f_WwR * ome)).^(1/3), f_WwR, pars_R); 
 
 % temperature - age at birth
 EaT_b = a_b./ TC_Tab;
-EtT_j = t_j./ TC_Ttj; % is the synthax of EtT_j correct?
-EtT_e = t_e./ TC_Tte; % is the synthax of EtT_e correct?
 
 % pack to output
 prdData.WwR = WwR;
 prdData.Tab = EaT_b;
-prdData.Ttj = EtT_j;
-prdData.Tte = EtT_e;
