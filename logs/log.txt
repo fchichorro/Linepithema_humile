@@ -11,6 +11,6 @@ log file "20210524 1.html"
 v is very low (0.0001 or something) and kappa is very low (in the order of 1*10e-05)
 
 Re-run with pars-init settings as v1.0 (similar of Venturia canescens). It reached convergence and
-kappa value and v was more realistic (20210524 2.html)
+kappa value and v was more realistic (20210524 2.html). used mat2pars-init to recycle the parameters found. MRE is still high (0.387)
 
 ##
