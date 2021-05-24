@@ -21,7 +21,7 @@ metaData.ecoCode.reprod  = {'O'};
 metaData.T_typical  = C2K(28); % K, body temp
 
 metaData.data_0     = {'ab','ab','tj','te','am','Ww0','Wwj','Wwi','Wwe','Wdi','Wde','Lb','Lj','Le','Ri'};
-metaData.data_1     = {'LR','LR','WwR'};
+metaData.data_1     = {'WwR','Tab','Ttj', 'Tte'};
 
 metaData.COMPLETE   = 1.5; % using criteria of LikaKear2011
 
@@ -87,42 +87,50 @@ bibkey.WwR = {'Kell1988'};
 comment.WwR = 'measured on artificial colonies with one queen (Fig 1). The study also presents results from polygyne colonies, which are what we typically see in nature. I chose monogyne because it better reflects optimal conditions through the queens perspective.';
 
 % Temperature - age at birth
-data.Tab = [ ... 
-  18 57.7
-  21 31.8
-  24 20.3
-  26 17.8
-  28 16
-  30 15.7];
-units.Tab = {'T', 'd'}; label.Tab= {'Temperature', 'age at birth'};
-bibkey.Tab = {'Abri2010'};
-comment.Tab = 'Incubation times measured on eggs belonging to the worker caste (best information available)';
+%data.Tab = [ ... 
+%  18 57.7
+%  21 31.8
+%  24 20.3
+%  26 17.8
+%  28 16
+%  30 15.7];
+%units.Tab = {'T', 'd'}; label.Tab= {'Temperature', 'age at birth'};
+%bibkey.Tab = {'Abri2010'};
+%comment.Tab = 'Incubation times measured on eggs belonging to the worker caste (best information available)';
 
 % Temperature - time since birth at end acceleration
-data.Ttj = [ ... 
-  21 103.8
-  24 64.9
-  26 85.3
-  28 43
-  30 37.5];
-units.Ttj = {'T', 'd'}; label.Ttj= {'Temperature', 'time since birth at end acceleration'};
-bibkey.Ttj = {'Abri2010'};
-comment.Ttj = 'Incubation times measured on eggs belonging to the worker caste (best information available)';
+%data.Ttj = [ ... 
+%  21 103.8
+%  24 64.9
+%  26 85.3
+%  28 43
+%  30 37.5];
+%units.Ttj = {'T', 'd'}; label.Ttj= {'Temperature', 'time since birth at end acceleration'};
+%bibkey.Ttj = {'Abri2010'};
+%comment.Ttj = 'Incubation times measured on eggs belonging to the worker caste (best information available)';
 
 % Temperature - time since pupation at emergence
-data.Tte = [ ... 
-  21 25.6
-  24 16.2
-  26 11.4
-  28 9
-  30 8];
-units.Tte = {'T', 'd'}; label.Tte= {'Temperature', 'time since pupation at emergence'};
-bibkey.Tte = {'Abri2010'};
-comment.Tte = 'Incubation times measured on eggs belonging to the worker caste (best information available)';
+%data.Tte = [ ... 
+%  21 25.6
+%  24 16.2
+%  26 11.4
+%  28 9
+%  30 8];
+%units.Tte = {'T', 'd'}; label.Tte= {'Temperature', 'time since pupation at emergence'};
+%bibkey.Tte = {'Abri2010'};
+%comment.Tte = 'Incubation times measured on eggs belonging to the worker caste (best information available)';
 
 %% set weights for all real data
 weights = setweights(data, []);
+%weights.ab = 5 * weights.ab;
+%weights.tj = 5 * weights.tj;
+%weights.te = 5 * weights.te;
+%weights.am = 5 * weights.am;
+
 weights.Ww0 = 5 * weights.Ww0;
+%weights.Tab = 0.1 * weights.Tab;
+%weights.Ttj = 0.1 * weights.Ttj;
+%weights.Tte = 0.1 * weights.Tte;
 
 %% set pseudodata and respective weights
 [data, units, label, weights] = addpseudodata(data, units, label, weights);
