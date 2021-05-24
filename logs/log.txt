@@ -1,0 +1,16 @@
+# Experiment: trying to reach small MSE values, below 0.15
+
+### Log 0: During the course
+
+never below 0.45. 
+
+## Log1: 20210524 without T-ab, T-tj, T-te
+
+log file "20210524 1.html"
+
+v is very low (0.0001 or something) and kappa is very low (in the order of 1*10e-05)
+
+Re-run with pars-init settings as v1.0 (similar of Venturia canescens). It reached convergence and
+kappa value and v was more realistic (20210524 2.html)
+
+##
