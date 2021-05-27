@@ -1,3 +1,5 @@
+_note_ Inactive project due to a dead-end. Need probably need better data. The project is not a priority right now for me.
+
 # Linepithema_humile
 
 Estimation of dynamic-energy budget parameters for the argentine ant, *Linepithema humile* (Mayr, 1868). If successful, this would be the first DEB-parametrized ant species. 
