@@ -13,4 +13,10 @@ v is very low (0.0001 or something) and kappa is very low (in the order of 1*10e
 Re-run with pars-init settings as v1.0 (similar of Venturia canescens). It reached convergence and
 kappa value and v was more realistic (20210524 2.html). used mat2pars-init to recycle the parameters found. MRE is still high (0.387)
 
-##
+## 20210526
+
+Tried to remove datapoints of length/wet weight data to see if a better fit could be obtained. Ww0 and Lb seem to be antagonistic (taking one of these out improves fit). Better weight data would be nice to have.
+
+## 20210527
+
+As I have no hopes of getting a better fit in the future, I set this project on hold for now. Better try fitting DEB with another species.
